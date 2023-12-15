@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Support</title>
+</head>
+<body>
+  <button id="contactSupport">Contact Support</button>
+
+  <script>
+    document.getElementById("contactSupport").addEventListener("click", function() {
+      var mailtoLink = "mailto:support@example.com?subject=Support%20Request&body=Hello%20Support%2C%0A%0AI%20have%20a%20question%20regarding%20your%20services.%0A%0AThank%20you%2C%0AJohn%20Doe";
+      window.location.href = mailtoLink;
+    });
+  </script>
+</body>
+</html>
